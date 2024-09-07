@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "antibookban",
+  "version": "${version}",
+  "name": "AntiBookBan",
+  "description": "An addon that prevents you from getting book banned",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/boze-dev/antibookban-addon"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "mixins": [
+    "antibookban.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "1.21"
+  }
+}
